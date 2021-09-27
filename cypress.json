@@ -1,0 +1,33 @@
+{
+    "env": {
+      "url": "https://testing.sedaru.com",
+      "omni_url": "https://omni-testing.sedaru.com",
+      "username": "testuser",
+      "password": "168Arrow!",
+      "customercode": "sedarudemo",
+      "FAIL_FAST_ENABLED": false,
+      "allureResultsPath": "./cypress/allure/results"
+    },
+    "supportFile": "./cypress/support/index.js",
+    "pageLoadTimeout": 200000,
+    "taskTimeout": 200000,
+    "responseTimeout": 200000,
+    "requestTimeout": 200000,
+    "trashAssetsBeforeRuns": true,
+    "reporter": "cypress-mochawesome-reporter",
+    "video": true,
+    "reporterOptions": {
+      "reportDir": "cypress/report",
+      "charts": true,
+      "reportPageTitle": "Automation Report",
+      "embeddedScreenshots": true,
+      "inlineAssets": true,
+      "showFailed": true,
+      "saveHtml": true
+    },
+    "retries": {
+      "runMode": 2,
+      "openMode": 0
+    }
+  }
+  
